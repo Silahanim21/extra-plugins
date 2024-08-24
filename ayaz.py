@@ -148,12 +148,12 @@ naber = (
 )
 
 
-daim = (
-"**Allah iyilik versin canım**",
-"**Daim olsunnnnn**",
-"**Daim olsun** ❤️‍🔥",
-"**Daimm olsun birtanem**",
-"**Hep iyi olll**",	
+pelin = (
+"**@MytBotSahip in sevdiği Kadın**",
+"**Meyit'in herşeyi dedim ya**",
+"**Meypella & Meyit Seviyorlar birbirlerini** ❤️‍🔥",
+"**Meyitin karısı ❤️**",
+"**Ona yürürsen Meyit görür ve çok kızar.**",	
 )
 
 nasılsın = (
