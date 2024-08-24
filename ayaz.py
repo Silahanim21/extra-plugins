@@ -112,7 +112,7 @@ slm = (
 "**Selamm**",  
 )
 
-meyit = (
+buse = (
 "**Efendim Dost** 🫢",
 "**Beni mi çağırdıın** 🫠",
 "**Efendimm** ❣️",
