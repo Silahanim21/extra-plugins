@@ -2075,7 +2075,6 @@ async def welcome(client: Client, message: Message):
             await client.send_message(LOG_CHANNEL, f"""
 #YENİ GRUBA KATILDIM#
 
-✅ **Grup Link:** @'{chat.username}'
 🤖 **Grup Adı:** {message.chat.title}
 🆔 **Grup ID:** `{message.chat.id}`
 """)
