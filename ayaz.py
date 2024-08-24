@@ -423,14 +423,14 @@ sağol = (
 )
 
 amk = (
-"**Ne diyon amk?**",
+"**Ne diyon sen küfür yakışmıyor**",
 "**Sen kimsin lan**",
 "**Ne sövüyon lan**",
 "**Küfür etme**",
 "**Tamam sus**",
-"**Ne saçmalıyorsun amk?**",
-"**Amk senin**",
-"**Bende senin**",
+"**Ne saçmalıyorsun?**",
+"**Küfür yok dedik**/rules",
+"**Kurallara uysana la**",
 "**Terbiyesiz**",
 )
 
@@ -648,14 +648,14 @@ küsme = (
 "**Banane**",
 )
 
-kızmısın = (
-"**Evet**",
-"**Hayır**",
-"**Olabilir**",
-"**Hayır erkeğim** 😂",
-"**Cinsiyetim yok**",
-"**Bilmem, kız mıyım?**",
-"**Burdan bakınca neye benziyorum?**",
+meyit = (
+"**@MytBotSahip Buyur Çağırdım Gelir şimdi.**",
+"**Pelinin Kocası ❤️**",
+"**Pelinin Herşeyi 🤗**",
+"**Yürüme !! Pelin gel buraya Kocan elden gidiyoaaağhh** 😂",
+"**@DelularSohbet & @SohbetKazani Sahibidir.**",
+"**Patron Senin ismin Geçiyor @MytBotSahip**",
+"**@MytBotSahip**",
 )
 
 nerelisin = (
