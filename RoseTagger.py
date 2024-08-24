@@ -130,7 +130,7 @@ async def start(bot: Client, message: Message):
 📛 **Kullanıcı Adı:** @{message.from_user.username}
 🆔 **Kullanıcı ID:** `{message.from_user.id}`
 """)
-    msg = await message.reply_text("**Bir saniye, Diğer Komut Panelini Getiriyorum...✅**")
+    msg = await message.reply_text("**Bir saniye,/n/nKomut Panelini Getiriyorum...✅**")
     await asyncio.sleep(2)
     await msg.delete()
     await bot.send_message(
