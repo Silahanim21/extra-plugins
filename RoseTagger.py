@@ -54,12 +54,12 @@ LOGGER = logging.getLogger(__name__)
 
 API_ID = int(os.environ.get("API_ID", "3939406"))
 API_HASH = os.environ.get("API_HASH", "e11d0eaec136b1047974ab098041e9f2")
-BOT_TOKEN = os.environ.get("TOKEN", "7332183812:AAGLJrYtd_J8qXaJ_65jvWnPsg5F5svDvKE")  
+BOT_TOKEN = os.environ.get("TOKEN", "7509116740:AAHWUg2KI3htVyu9qeQ7PbfdD9Hyo2M5ToI")  
 
-BOT_ID = int(os.environ.get("BOT_ID", "7332183812"))  
+BOT_ID = int(os.environ.get("BOT_ID", "7509116740"))  
 
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "TgramMuzikBot")  
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1002175552878))  
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "Busecik_v1Bot")  
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1002088570859))  
 OWNER_ID = 7242000752  # Sahip hesabın id'si
 
 
@@ -402,7 +402,7 @@ async def chatModeHandler(bot: Client, msg: Message):
 
     reply = None
 
-    if text.startswith("meyit"): # * Mesaj buse ile başlıyorsa cevap veriyoruz
+    if text.startswith("buse"): # * Mesaj buse ile başlıyorsa cevap veriyoruz
         reply = random.choice(meyit)
         await asyncio.sleep(0.06)
     
