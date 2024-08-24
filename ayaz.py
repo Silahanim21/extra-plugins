@@ -339,6 +339,16 @@ geceler = (
 "**Uyuma konuşalım**",
 )
 
+bot = ( 
+"**Bot mu?**🙄",
+"**Kim bot lan**🤨",
+"**Bot demesene artık**😠",
+"**Yav çıldırttın Benim gibi Botu**😡",
+"**Küfür etcem Az kaldı**🤬",
+"**Kime bot Diyorsun?**",
+)
+	
+
 şaka = (
 "**Ne şakası?**",
 "**Şaka mı yapıyorsun?**",
