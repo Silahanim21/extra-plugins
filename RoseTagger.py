@@ -897,7 +897,7 @@ Sebep : {message.text}
         if message.chat.id not in rose_tagger or rose_tagger[message.chat.id] != start_msg.id:
             return
         if usrnum == nums:
-            await client.send_message(message.chat.id, f"📢 **{msg_content}**\n\n{usrtxt}")
+            await client.send_message(message.chat.id, f" **{msg_content}**\n\n{usrtxt}")
             usrnum = 0
             usrtxt = ""
             await asyncio.sleep(5)
@@ -998,7 +998,7 @@ Sebep : {message.text}
         if message.chat.id not in rose_tagger or rose_tagger[message.chat.id] != start_msg.id:
             return
         if usrnum == nums:
-            await client.send_message(message.chat.id, f"📢 **{msg_content}**\n\n{usrtxt}")
+            await client.send_message(message.chat.id, f" **{msg_content}**\n\n{usrtxt}")
             usrnum = 0
             usrtxt = ""
             await asyncio.sleep(5)
@@ -1298,7 +1298,7 @@ Sebep : {message.text}
         if message.chat.id not in rose_tagger or rose_tagger[message.chat.id] != start_msg.id:
             return
         if usrnum == nums:
-            await client.send_message(message.chat.id, f"📢 **{msg_content}**\n\n{usrtxt} ")
+            await client.send_message(message.chat.id, f" **{msg_content}**\n\n{usrtxt} ")
             usrnum = 0
             usrtxt = ""
             await asyncio.sleep(5)
@@ -1397,7 +1397,7 @@ Sebep : {message.text}
         if message.chat.id not in rose_tagger or rose_tagger[message.chat.id] != start_msg.id:
             return
         if usrnum == nums:
-            await client.send_message(message.chat.id, f"📢 **{msg_content}**\n\n{usrtxt} ")
+            await client.send_message(message.chat.id, f" **{msg_content}**\n\n{usrtxt} ")
             usrnum = 0
             usrtxt = ""
             await asyncio.sleep(5)
@@ -1496,7 +1496,7 @@ Sebep : {message.text}
         if message.chat.id not in rose_tagger or rose_tagger[message.chat.id] != start_msg.id:
             return
         if usrnum == nums:
-            await client.send_message(message.chat.id, f"📢 **{msg_content}**\n\n{usrtxt}")
+            await client.send_message(message.chat.id, f"**{msg_content}**\n\n{usrtxt}")
             usrnum = 0
             usrtxt = ""
             await asyncio.sleep(5)
