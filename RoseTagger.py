@@ -1283,7 +1283,7 @@ Sebep : {message.text}
     skipped_bots = 0
     skipped_deleted = 0
     total_tagged = 0
-    usrtxt += ""
+    usrtxt = ""
     
     async for member in client.get_chat_members(message.chat.id):
         user = member.user
