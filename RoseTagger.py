@@ -1263,7 +1263,7 @@ Grup İD : `{chat.id}`
 Sebep : {message.text}
 """
  )
-    num = 3
+    num = 1
 
     estimated_time = (total_members // num) * 5
 
@@ -1277,11 +1277,11 @@ Sebep : {message.text}
 """)
     
     rose_tagger[message.chat.id] = start_msg.id
-    nums = 3
-    usrnum = 0
+    nums = 1
+    usrnum = 1
     skipped_bots = 0
     skipped_deleted = 0
-    total_tagged = 0
+    total_tagged = 1
     usrtxt = ""
     
     async for member in client.get_chat_members(message.chat.id):
@@ -1362,7 +1362,7 @@ Grup İD : `{chat.id}`
 Sebep : {message.text}
 """
  )
-    num = 3
+    num = 1
 
     estimated_time = (total_members // num) * 5
 
@@ -1376,11 +1376,11 @@ Sebep : {message.text}
 """)
     
     rose_tagger[message.chat.id] = start_msg.id
-    nums = 3
-    usrnum = 0
+    nums = 1
+    usrnum = 1
     skipped_bots = 0
     skipped_deleted = 0
-    total_tagged = 0
+    total_tagged = 1
     usrtxt = ""
     
     async for member in client.get_chat_members(message.chat.id):
