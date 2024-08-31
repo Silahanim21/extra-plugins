@@ -24,6 +24,8 @@ tagger_commands = """ ✶ **Etiket Komutları**
 
 » `/atag` **- Gruptaki adminleri etiketler.**
 
+» `/anonimtag` **- Gruptaki üyleri anonim cümleleri ile etiketler.**
+
 » `/utag` **- Çoklu etiketler.**
 
 » `/etag` **- Emoji ile etiketler.**
@@ -1215,6 +1217,17 @@ iyigeceler = (
     "**İyi akşamlar canım**",
     "**Yeni mi gece oldu ya?**",
     "**Gecenin yarısı olmuş iyi uykular 😁**",
+)
+
+anonim = (
+    "**Anonim Oynayacağız sese koş 🥳**",
+    "**Seslide anonim var gelsene ☺️**",
+    "**Anonim oyununu biliyor musun seste oynuyoruz gel anlatalım..**",
+    "**Anonime koş hadi 😎**",
+    "**Sesli Sohbette anonim oynuyoruz 😁**",
+    "**Anonim oyunu ile birbirimizi tanırız gel hadi 🥳**",
+    "**Bu grupta anonim bir başka eğlenceli çık sesli sohbete 😎**",
+    "**Anonim oyununu cezalı oynuyoruz, gel ceza al 😁**",
 )
 
 mani = (
