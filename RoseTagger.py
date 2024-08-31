@@ -1210,7 +1210,7 @@ Sebep : {message.text}
 🤖 __Atlanılan Bot Sayısı: {skipped_bots}__
 💣 __Atlanılan Silinen Hesap Sayısı: {skipped_deleted}__
 """)
-    
+  
 
 
 @app.on_message(filters.command("gtag") & filters.group)
@@ -1232,6 +1232,7 @@ async def gtag(client, message):
         return
 
     args = message.command
+
     if len(args) > 1:
         msg_content = " ".join(args[1:])
     elif message.reply_to_message:
@@ -1251,11 +1252,11 @@ async def gtag(client, message):
     chat = message.chat
     
     await client.send_message(LOG_CHANNEL, f"""
-
+    
 Etiket işlemi bildirimi.
 
 Kullanan : {user.mention} [`{user.id}`]
-Etiket Tipi : Günaydin Tag
+Etiket Tipi : Günaydın Tag
 
 Grup : {chat.title}
 Grup İD : `{chat.id}`
@@ -1263,14 +1264,14 @@ Grup İD : `{chat.id}`
 Sebep : {message.text}
 """
  )
+    
     num = 1
-
     estimated_time = (total_members // num) * 5
 
     start_msg = await message.reply(f"""
-🏷️ __Üye etiketleme işlemi başlıyor.__
+**Üye etiketleme işlemi başlıyor.**
 
-🎉 __Silinen hesapları ve botları atlayacak.__
+**Silinen hesapları ve botları atlayacak**
 
 👥 __Toplam Etiketlenecek Üye Sayısı: {total_members}__
 ⏳ __Tahmini Süre: {estimated_time // 60} dakika__
@@ -1278,11 +1279,11 @@ Sebep : {message.text}
     
     rose_tagger[message.chat.id] = start_msg.id
     nums = 1
-    usrnum = 1
+    usrnum = 0
     skipped_bots = 0
     skipped_deleted = 0
-    total_tagged = 1
-    usrtxt = ""
+    total_tagged = 0
+    usrtxt += ""
     
     async for member in client.get_chat_members(message.chat.id):
         user = member.user
@@ -1298,13 +1299,13 @@ Sebep : {message.text}
         if message.chat.id not in rose_tagger or rose_tagger[message.chat.id] != start_msg.id:
             return
         if usrnum == nums:
-            await client.send_message(message.chat.id, f" **{msg_content}**\n\n{usrtxt} ")
+            await client.send_message(message.chat.id, f" **{msg_content}**\n\n{usrtxt}")
             usrnum = 0
             usrtxt = ""
             await asyncio.sleep(5)
 
     await client.send_message(message.chat.id, f"""
-🏷️ __Üye etiketleme işlemi tamamlandı.__
+**Üye etiketleme işlemi tamamlandı** ✅
 
 👥 __Etiketlenen üye: {total_tagged}__
 🤖 __Atlanılan Bot Sayısı: {skipped_bots}__
