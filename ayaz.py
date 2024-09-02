@@ -102,6 +102,8 @@ slm = (
 "**Sen nerdesin ya** 😂",
 "**Selmmm**",
 "**Nerde kaldın be** 😂",
+"**Merhaba nabersin?**",
+"**Yaw sen nerdesin ?**😂",
 "**Gözümüz yollardaydı sonunda** 😂",
 "**Çok bekledik he** 😂",
 "**Gözümüz yollarda kalmıştı** 😂",
@@ -146,6 +148,7 @@ naber = (
 "**İyii sendennn**",
 "**İyi bende canımm** 😅",
 "**İdare senden**",
+"**kötü desem ne diyecen**😂"
 "**Ehh işte idare ediyoruz**",
 "**İyi olmaya çalışıyorum sen** 😂",
 "**Süper senden hayatım**",
@@ -163,6 +166,9 @@ pelin = (
 nasılsın = (
 "**İyi sen nasılsın?**",
 "**Süperimm sennn**",
+"**Hamd olsun canım, sen ?**",
+"**Elhamdülillah sen ?**",
+"**iyiyim Koçum sen ?**",
 "**İyiyim şükür sen** 😂",
 )
 
@@ -179,6 +185,7 @@ tm = (
 
 sus = (
 "**Sen sus** 😡",
+"**Sen Beni sinir etmeye mi çalışıyorsun. 😠**",
 "**Bana sus deme**",
 "**Sinirleniyorum ama** 🤬",
 "**Konuşma lan**",
@@ -210,6 +217,7 @@ yok = (
 dur = (
 "**Durdum tamam kızma** 🤣",
 "**Peki durdum** 😂",
+"**Durmam için yetkili biri gelsin 😁**",
 "**Ok durdum**",
 )
 
