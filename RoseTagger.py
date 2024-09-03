@@ -34,6 +34,7 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
     Message,
     User,
+    ChatAction,
     CallbackQuery,
     ChatMember,
     ChatMemberUpdated,
@@ -376,6 +377,27 @@ async def chat_mode_callback(bot: Client, cb: CallbackQuery):
 
     await cb.answer()  
 
+@app.on(events.ChatAction)
+async def handler(event):
+    if event.user_joined:
+        await event.reply(random.choice(userjoin))
+
+@app.on(events.ChatAction)
+elif event.user_left: 
+        user = await event.get_user() 
+        username = f"{user.first_name}"
+        await event.reply(f"{username} Büyük Buluşma")
+
+userjoin = (
+
+   f"{username} Hoş geldin kardeş❤️",
+   f"{username} Way Kimler gelmiş ☺️",
+   f"{username} ooo Kimi Görüyorum🙈",
+   f"{username} Hoş geldin, gitme burdan, sen olmadan yaşayamam 😁",
+   f"{username} iyiki geldin??🙄",
+   f"{username} Hoş Geldin, Pizza Getireceğini Düşünmüştük 🤠",
+   f"{username} Gel Kurban olsun teyzen, Gel Bakalım Ne Buldum😀",
+            )
     
 
 
