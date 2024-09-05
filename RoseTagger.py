@@ -54,18 +54,18 @@ LOGGER = logging.getLogger(__name__)
 
 API_ID = int(os.environ.get("API_ID", "3939406"))
 API_HASH = os.environ.get("API_HASH", "e11d0eaec136b1047974ab098041e9f2")
-BOT_TOKEN = os.environ.get("TOKEN", "7509116740:AAHWUg2KI3htVyu9qeQ7PbfdD9Hyo2M5ToI")  
+BOT_TOKEN = os.environ.get("TOKEN", "7469719850:AAEkLki3qjqlvRkI_0JqpWmXCT21ThCa1pw")  
 
-BOT_ID = int(os.environ.get("BOT_ID", "7509116740"))  
+BOT_ID = int(os.environ.get("BOT_ID", "7469719850"))  
 
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "Busecik_v1Bot")  
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "AynurKaracaBot")  
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1002088570859))  
 OWNER_ID = 7242000752  # Sahip hesabın id'si
 
 
 
 #-------------------------------------------------------------------------
-mongo_client = MongoClient("mongodb+srv://mongoguess:guessmongo@cluster0.zcwklzz.mongodb.net/?retryWrites=true&w=majority")
+mongo_client = MongoClient("mongodb+srv://meyitzade3:Meyit4763@cluster0.wm5b9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = mongo_client["tagger_db"]
 blocked_collection = db["blocked"]   
 groups_collection = db["groups"]
