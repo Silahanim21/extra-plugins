@@ -118,7 +118,7 @@ slm = (
 "**Selamm**",  
 )
 
-buse = (
+Aynur = (
 "**Efendim Dost** 🫢",
 "**Beni mi çağırdıın** 🫠",
 "**Efendimm** ❣️",
