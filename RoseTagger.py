@@ -178,7 +178,7 @@ async def handler(bot: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🏠 Ana Menü", callback_data="meyit"
+                        "🏠 Ana Menü", callback_data="start"
                     )
                         
                 ]
@@ -198,7 +198,7 @@ async def handler(bot: Client, query: CallbackQuery):
                     InlineKeyboardButton(
                         "🔙 Geri", callback_data="cvv"),
                     InlineKeyboardButton(
-                        "🏠 Ana Menü", callback_data="meyit"
+                        "🏠 Ana Menü", callback_data="start"
                     )
                         
                 ],
@@ -219,7 +219,7 @@ async def handler(bot: Client, query: CallbackQuery):
                     InlineKeyboardButton(
                         "🔙 Geri", callback_data="cvv"),
                     InlineKeyboardButton(
-                        "🏠 Ana Menü", callback_data="meyit"
+                        "🏠 Ana Menü", callback_data="start"
                     )
                         
                 ],
@@ -239,7 +239,7 @@ async def handler(bot: Client, query: CallbackQuery):
                     InlineKeyboardButton(
                         "🔙 Geri", callback_data="cvv"),
                     InlineKeyboardButton(
-                        "🏠 Ana Menü", callback_data="meyit"
+                        "🏠 Ana Menü", callback_data="start"
                     )
                 ],
             ],
@@ -262,7 +262,7 @@ async def handler(client: Client, query: CallbackQuery):
                             "🔙 Geri", callback_data="cvv"
                             ),
                         InlineKeyboardButton(
-                            "🏠 Ana Menü", callback_data="meyit"
+                            "🏠 Ana Menü", callback_data="start"
                         )
                     ]
                 ]
@@ -2085,7 +2085,7 @@ async def slot(client: Client, query: CallbackQuery):
 #-----------------------------------------------------------------------------------#
 
 
-@app.on_message(filters.command("ping"))
+@app.on_message(filters.command("pings"))
 async def pingy(client, message):
     if is_user_blocked(message.from_user.id):
         await message.reply("**Üzgünüm, bu komutu kullanma yetkiniz engellendi.** 🚫")
@@ -2124,7 +2124,7 @@ async def ping(bot, query):
     )
 
 #-----------------------------------------------------------------------------------#
-@app.on_message(filters.command("id"))
+@app.on_message(filters.command("ids"))
 async def _id(bot: Client, message: Message):
     if is_user_blocked(message.from_user.id):
         await message.reply("**Üzgünüm, bu komutu kullanma yetkiniz engellendi.** 🚫")
@@ -2139,7 +2139,7 @@ async def _id(bot: Client, message: Message):
     await message.reply(text)
 
   
-@app.on_message(filters.command("info"))
+@app.on_message(filters.command("infon"))
 async def info(client: Client, message: Message):
     mesaj = message.reply_to_message or message
     chat = message.chat
