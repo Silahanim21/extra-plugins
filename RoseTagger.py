@@ -178,7 +178,7 @@ async def handler(bot: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🏠 Ana Menü", callback_data="start"
+                        "🏠 Ana Menü", callback_data="meyit"
                     )
                         
                 ]
@@ -198,7 +198,7 @@ async def handler(bot: Client, query: CallbackQuery):
                     InlineKeyboardButton(
                         "🔙 Geri", callback_data="cvv"),
                     InlineKeyboardButton(
-                        "🏠 Ana Menü", callback_data="start"
+                        "🏠 Ana Menü", callback_data="meyit"
                     )
                         
                 ],
@@ -219,7 +219,7 @@ async def handler(bot: Client, query: CallbackQuery):
                     InlineKeyboardButton(
                         "🔙 Geri", callback_data="cvv"),
                     InlineKeyboardButton(
-                        "🏠 Ana Menü", callback_data="start"
+                        "🏠 Ana Menü", callback_data="meyit"
                     )
                         
                 ],
@@ -239,7 +239,7 @@ async def handler(bot: Client, query: CallbackQuery):
                     InlineKeyboardButton(
                         "🔙 Geri", callback_data="cvv"),
                     InlineKeyboardButton(
-                        "🏠 Ana Menü", callback_data="start"
+                        "🏠 Ana Menü", callback_data="meyit"
                     )
                 ],
             ],
@@ -262,7 +262,7 @@ async def handler(client: Client, query: CallbackQuery):
                             "🔙 Geri", callback_data="cvv"
                             ),
                         InlineKeyboardButton(
-                            "🏠 Ana Menü", callback_data="start"
+                            "🏠 Ana Menü", callback_data="meyit"
                         )
                     ]
                 ]
@@ -272,7 +272,7 @@ async def handler(client: Client, query: CallbackQuery):
 
 
 # Başlanğıc Button
-@app.on_callback_query(filters.regex("start"))
+@app.on_callback_query(filters.regex("meyit"))
 async def _start(bot: Client, query: CallbackQuery):
     await query.edit_message_text(
         start_message.format(query.from_user.mention, BOT_USERNAME),
