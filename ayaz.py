@@ -1216,6 +1216,16 @@ gunaydin = (
     "Ya Uyansana seni bekliyorum 🤗",
 )
 
+unotag = ( 
+	"Gel Hadi Uno Oynayalım...🫡",
+	"Uno oynadın mı sen daha önce?🤭",
+	"Uno Kart Oyununu Bilir misin?🤔",
+	"Heyy Uno Var gell 🤗‼️",
+	"Aloo Uno Oynuyoruz. gelll 🙄!!",
+	"Uno Başladı /katil yazarak sende katılabilirsin. ☺️",
+	"Bu grupta Uno Zevki Bir Başka 😂",
+)
+
 iyigeceler = (
     "**Sana da iyi Gecelerr**",
     "**İyi gecelerin olsun.**",
