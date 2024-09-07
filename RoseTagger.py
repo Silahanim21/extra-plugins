@@ -1493,7 +1493,7 @@ Sebep : {message.text}
             continue
         usrnum += 1
         total_tagged += 1
-        usrtxt += f"[{random.choice(gunaydin)}](tg://user?id={user.id})"
+        usrtxt += f"[{random.choice(unotag)}](tg://user?id={user.id})"
         if message.chat.id not in rose_tagger or rose_tagger[message.chat.id] != start_msg.id:
             return
         if usrnum == nums:
