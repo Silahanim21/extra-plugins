@@ -805,6 +805,49 @@ async def slap(bot: Client, message: Message):
 """
     )
 
+#-----------------------------------------------------------------------------#
+
+@app.on_message(filters.command(["oner"]) & filters.group)
+async def oner(bot: Client, message: Message):
+    if is_user_blocked(message.from_user.id):
+        await message.reply("Üzgünüm, bu komutu kullanma yetkiniz engellendi. 🚫")
+        return
+        
+    chat = message.chat
+    if not message.reply_to_message:
+        await message.reply_text("🚫 Bir kullanıcıya cevap verin!")
+        return
+    if message.reply_to_message.from_user.id == OWNER_ID:
+        await message.reply_text(f"{random.choice(sarki1)}")
+        return
+    if message.reply_to_message.from_user.id == BOT_ID:
+        await message.reply_text(f"{random.choice(sarki2)}")
+        return
+    
+
+    atan = message.from_user
+    yiyen = message.reply_to_message.from_user
+
+    atan_mesaj = f"[{atan.first_name}](tg://user?id={atan.id})"
+    yiyen_mesaj = f"[{yiyen.first_name}](tg://user?id={yiyen.id})"
+
+    goktug = random.choice(sarkilar)
+    await message.reply_text(
+        goktug.format(atan_mesaj, yiyen_mesaj),
+    )
+
+    await bot.send_message(
+        LOG_CHANNEL,
+        f"""
+👤 Kullanan : [{atan.first_name}](tg://user?id={atan.id})
+💥 Kullanıcı Id : {atan.id}
+🪐 Kullanılan Grup : {chat.title}
+💡 Grup ID : {chat.id}
+◀️ Grup Link : @{chat.username}
+📚 Kullanılan Modül : Şarkı Öneri
+"""
+    )
+
 #-----------------------------------------------------------------------------
 
 
