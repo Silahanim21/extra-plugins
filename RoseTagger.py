@@ -2418,12 +2418,13 @@ async def welcome(client: Client, message: Message):
             )
 
             
-            await client.send_message(LOG_CHANNEL, f"""
+            await bot(client.send_message(LOG_CHANNEL, f"""
 #YENİ GRUBA KATILDIM#
 
 🤖 **Grup Adı:** {message.chat.title}
+◀️ Grup Link : @{chat.username}
 🆔 **Grup ID:** `{message.chat.id}`
-""")
+"""))
 
 
 
