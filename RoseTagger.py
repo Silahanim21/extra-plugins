@@ -54,12 +54,12 @@ LOGGER = logging.getLogger(__name__)
 
 API_ID = int(os.environ.get("API_ID", "3939406"))
 API_HASH = os.environ.get("API_HASH", "e11d0eaec136b1047974ab098041e9f2")
-BOT_TOKEN = os.environ.get("TOKEN", "7332183812:AAHpqxtdusAAWwydN_xQdIWRadfUbkdvTPc")  
+BOT_TOKEN = os.environ.get("TOKEN", "6904551522:AAG53Z2DU5w0D05LJ9sxTp3xHSO9bROt9r4")  
 
-BOT_ID = int(os.environ.get("BOT_ID", "7332183812"))  
+BOT_ID = int(os.environ.get("BOT_ID", "6904551522"))  
 
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "TgramMuzikBot")  
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1002175552878))  
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "MytGroupBot")  
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1002244663689))  
 OWNER_ID = 7242000752  # Sahip hesabın id'si
 
 
@@ -104,7 +104,7 @@ def unblock_user(user_id):
 
 # Başlanğıc Mesajı
 
-@app.on_message(filters.command("meyit") & filters.private)
+@app.on_message(filters.command("myt") & filters.private)
 async def start(bot: Client, message: Message):
     chat_id = message.chat.id
     first_name = message.from_user.mention
