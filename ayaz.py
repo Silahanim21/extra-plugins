@@ -1206,6 +1206,11 @@ gunaydin = (
     "Günaydın ☺️",
     "Gün aydı hadi sende uyan🌄",
     "Sen daha uyanmadın mı? Günaydın ☺️",
+    "Bugün Uyanmaya niyetin yok herhalde 😅",
+    "Sen uyanmazsan yüzüne su dökerim bak 🙄",
+    "Günaydın çiçeğim kahvaltı hazır 😂",
+    "Neden tüm öğünlere yemek diyoruz da sabah kahvaltı diyoruz 🙄",
+    "155 i arayalım mı uyanmak için baskın mı bekliyorsun 😅",
     "Uyansana Uykucu Güneş Doğdu 🌞",
     "Üsküdarda sabahboldu kalksana 🧸",
     "Horozlar ötmedi diye mi Uyuyorsun daha 😁",
@@ -1214,6 +1219,14 @@ gunaydin = (
     "Artık Uyanacak mısın 🤔",
     "Kalk Kahvaltı hazırla sabah oldu 😂",
     "Ya Uyansana seni bekliyorum 🤗",
+    "Çalışkan insanlar Erken uyanırlar..☺️",
+    "Pişt Uyandın mı? 🤔",
+    "Hadi Uyanda balığa gidelim 😁",
+    "Seni de sürekli isminle seslenip uyandıran biri var mı ? 😁",
+    "Uyanmak için Kaç para istiyorsun Uleeynnn😎",
+    "Sakince Elindeki yastığı yere bırak ve Uyan artık 😁",
+    "Uyanmak Zorundasın İşe gitcen Kalk 😅",
+    "Hadi Uyan Bugğn Pkulun Yok mu Senin 😂",
 )
 
 unotag = ( 
