@@ -104,7 +104,7 @@ def unblock_user(user_id):
 
 # Başlanğıc Mesajı
 
-@app.on_message(filters.command("myt") & filters.private)
+@app.on_message(filters.command("mytt") & filters.private)
 async def start(bot: Client, message: Message):
     chat_id = message.chat.id
     first_name = message.from_user.mention
